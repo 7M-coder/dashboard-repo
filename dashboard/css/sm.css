@@ -1,0 +1,98 @@
+@media screen and (max-width:767px) { /*xs and s 8*/
+    .sidebar .list ul {
+        align-items: center;
+    }
+    .sidebar .list ul li {
+        width:60%;
+        justify-content: center;
+    }
+
+    /*start cards*/
+    .cards .card {
+        grid-column: 1/3;
+    }
+
+    .cards .stats .stat {
+        width:100%;
+    }
+    .cards .news .new {
+        flex-direction: column;
+        align-items: center;
+        padding:0;
+        margin-top:10px
+    }
+    .cards .news .new div {
+        margin-top:10px
+    }
+    /*end cards*/
+
+    /*start profile*/
+    .personal-info {
+        flex-direction: column;
+    }
+    .personal-info div.top {
+        border:none
+    }
+    .personal-info div.top, .personal-info div.bottom {
+        width: 100%;
+    }
+    .personal-info div.bottom {
+        margin-top:20px;
+    }
+    .personal-info .bottom .single-row {
+        flex-direction: column;
+    }
+    .personal-info .bottom .single-row span {
+        width:100%
+    }
+    .personal-info .bottom .single-row span.gender {
+        justify-content: flex-start;
+    }
+    /*end profile*/
+
+    /*start activities*/
+    .act-row {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .act-row div {
+        margin-top:5px;
+    }
+    .act-row .desc {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        padding-left: 0;
+    }
+    .act-row .desc p {
+        margin-top:5px;
+    }
+    .act-row .time {
+        display: flex;
+        justify-content: center;
+    }
+    .act-row .time .day {
+        margin:0;
+        margin-left: 10px;
+    }
+
+    /*start courses*/
+
+    .course-cards .course-card {
+        width:100%;
+    }
+    /*end courses*/
+
+    /*start projects*/
+    .project-card {
+        width:100%;
+    }
+    /*end of projects*/
+
+    /*start friends*/
+    .f-card {
+        width:100%;
+    }
+    /*end of friends*/
+}
