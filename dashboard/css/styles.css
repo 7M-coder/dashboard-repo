@@ -1044,10 +1044,14 @@ h6 {
 }
 .personal-info .bottom .single-row {
   display: flex;
+  gap: 0 20px;
   flex-wrap: wrap;
   padding-left: 30px;
   padding-bottom: 20px;
   transition: all 0.1s ease-in-out;
+}
+.personal-info .bottom .single-row .btn-container {
+  width: 100%;
 }
 .personal-info .bottom .single-row .heading {
   width: 100%;
@@ -1067,7 +1071,6 @@ h6 {
 }
 .personal-info .bottom .single-row span {
   display: flex;
-  width: 33.3333%;
   margin-top: var(--defaultMTop);
   font-size: var(--smallSize);
 }
