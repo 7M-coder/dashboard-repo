@@ -1,337 +1,368 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <!--links-->
-    <link rel="stylesheet" href="./css/all.min.css">
-    <link rel="stylesheet" href="./css/bootstrap.min.css">
-    <link rel="stylesheet" href="./css/styles.css">
-    <link rel="stylesheet" href="./css/md.css">
-    <link rel="stylesheet" href="./css/sm.css">
+    <link rel="stylesheet" href="./css/all.min.css" />
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/md.css" />
+    <link rel="stylesheet" href="./css/sm.css" />
     <!--end of links-->
     <title>Profile</title>
-</head>
-<body>
+  </head>
+  <body>
     <div class="page">
-        <!--start sidebar-->
-        <div class="sidebar">
-
-            <div class="logo">
-                <h3 class="fw-bold">Hammad</h3>
-            </div>
-
-            <!--start list-->
-            <div class="list mt-3">
-                <ul class="text-capitalize">
-                    <li>
-                        <a href="index.html">
-                            <i class="fa-solid fa-chart-bar"></i>
-                            <span class="d-md-inline d-none">dashboard</span>
-                        </a>
-                    </li>
-
-                    <li class="active">
-                        <a href="profile.html">
-                            <i class="fa-solid fa-user"></i>
-                            <span class="d-md-inline d-none">profile</span>
-                        </a>
-                    </li>
-
-                    <li>
-                        <a href="courses.html">
-                            <i class="fa-solid fa-graduation-cap"></i>
-                            <span class="d-md-inline d-none">courses</span>
-                        </a>
-                    </li>
-
-                    <li>
-                        <a href="project.html">
-                            <i class="fa-solid fa-diagram-project"></i>
-                            <span class="d-md-inline d-none">projects</span>
-                        </a>
-                    </li>
-
-                    <li>
-                        <a href="friends.html">
-                            <i class="fa-solid fa-user-group"></i>
-                            <span class="d-md-inline d-none">friends</span>
-                        </a>
-                    </li>
-
-                    <li>
-                        <a href="files.html">
-                            <i class="fa-solid fa-file"></i>
-                            <span class="d-md-inline d-none">files</span>
-                        </a>
-                    </li>
-
-                    <li>
-                        <a href="settings.html">
-                            <i class="fa-solid fa-gear"></i>
-                            <span class="d-md-inline d-none">settings</span>
-                        </a>
-                    </li>
-
-                    <li>
-                        <a href="planes.html">
-                            <i class="fa-solid fa-credit-card"></i>
-                            <span class="d-md-inline d-none">plans</span>
-                        </a>
-                    </li>
-                </ul>
-            </div>
-            <!--end list-->
+      <!--start sidebar-->
+      <div class="sidebar">
+        <div class="logo">
+          <h3 class="fw-bold">Dashboard</h3>
         </div>
-        <!--end sidebar-->
-        <div class="content">
-            <!--start nav-->
-            <div class="nav">
-                <div class="left-side">
-                    <div class="icon">
-                        <i class="fa-solid fa-magnifying-glass"></i>
-                    </div>
-                    <input type="text" placeholder="type a keyword" class="search form-control" />
-                </div>
 
-                <div class="right-side">
-                    <div class="notifications">
-                        <i class="fa-regular fa-bell"></i>
-                    </div>
-                    <div class="avatar">
-                        <img src="./imgs/bear.png" alt="avatar">
-                    </div>
-                </div>
-            </div>
-            <!--end nav-->
-            
-            <!--start cards-->
-            <div class="cards">
+        <!--start list-->
+        <div class="list mt-3">
+          <ul class="text-capitalize">
+            <li>
+              <a href="index.html">
+                <i class="fa-solid fa-chart-bar"></i>
+                <span class="d-md-inline d-none">dashboard</span>
+              </a>
+            </li>
 
-                <!--start profile-->
-                <h2 class="fw-bold title">profile</h2>
-                <!--start personal info-->
-                <div class="card personal-info">
-                    <div class="top">
-                        <div class="avatar">
-                            <img src="./imgs/bear.png" alt="avatar">
-                        </div>
-                        <div class="name">
-                            <h6 class="fw-bold">Hammad Mohammad</h6>
-                        </div>
-                        <div class="rating">
-                            <p class="level">level 5</p>
-                            <div class="progress-bar">
-                                <div class="child-progress-bar">
+            <li class="active">
+              <a href="profile.html">
+                <i class="fa-solid fa-user"></i>
+                <span class="d-md-inline d-none">profile</span>
+              </a>
+            </li>
 
-                                </div>
-                            </div>
-                            <div class="stars">
-                                <img src="./imgs/rating.png" alt="rating">
-                            </div>
-                            <p class="rating-count">202 ratings</p>
-                        </div>
-                    </div>
-                    <div class="bottom">
-                        <div class="info-rows">
-                            <div class="single-row">
-                                <p>general information</p>
-                                <span>full name: <h6> Hammad Mohammad</h6></span>
-                                <span class="gender">gender: <h6>male</h6></span>
-                                <span>country: <h6>Saudi Arabia</h6></span>
-                                <div class="btn-container">
-                                    <input type="checkbox" id="toggle" checked>
-                                    <label for="toggle">
-                                        <i class="fa-solid fa-xmark"></i>
-                                        <div class="switch">
-                                            <i class="fa-solid fa-check"></i>
-                                        </div>
-                                    </label>                                    
-                                </div>
-                                
-                            </div>
-                            <div class="single-row">
-                                <p>personal information</p>
-                                <span>email: <h6> hammad@mail.com</h6></span>
-                                <span class="gender">phone: <h6>+966123456789</h6></span>
-                                <span>birthday: <h6>10/08/2002</h6></span>
-                                <div class="btn-container">
-                                    <input type="checkbox" id="toggle">
-                                    <label for="toggle">
-                                        <i class="fa-solid fa-xmark"></i>
-                                        <div class="switch">
-                                            <i class="fa-solid fa-check"></i>
-                                        </div>
-                                    </label>                                    
-                                </div>
-                                
-                            </div>
-                            <div class="single-row">
-                                <p>job information</p>
-                                <span>title: <h6> full stack developer</h6></span>
-                                <span class="gender">programming language: <h6>Javascript</h6></span>
-                                <span>years of experience: <h6>10 years</h6></span>
-                                <div class="btn-container">
-                                    <input type="checkbox" id="toggle" checked>
-                                    <label for="toggle">
-                                        <i class="fa-solid fa-xmark"></i>
-                                        <div class="switch">
-                                            <i class="fa-solid fa-check"></i>
-                                        </div>
-                                    </label>                                    
-                                </div>
-                                
-                            </div>
-                            <div class="single-row">
-                                <p>billing information</p>
-                                <span>payment method: <h6>Apple pay</h6></span>
-                                <span class="gender">email: <h6>mail@website.com</h6></span>
-                                <span>subscription: <h6>monthly</h6></span>
-                                <div class="btn-container">
-                                    <input type="checkbox" id="toggle">
-                                    <label for="toggle">
-                                        <i class="fa-solid fa-xmark"></i>
-                                        <div class="switch">
-                                            <i class="fa-solid fa-check"></i>
-                                        </div>
-                                    </label>                                    
-                                </div>
-                                
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!--end personal info-->
+            <li>
+              <a href="courses.html">
+                <i class="fa-solid fa-graduation-cap"></i>
+                <span class="d-md-inline d-none">courses</span>
+              </a>
+            </li>
 
-                <!--start personal stuff-->
-                <div class="personal-stuff">
-                    <!--start skills card-->
-                    <div class="card skills">
-                        <h4 class="fw-bold">skills</h4>
-                        <p class="">complete skill list</p>
-                        <div class="skill-rows">
+            <li>
+              <a href="project.html">
+                <i class="fa-solid fa-diagram-project"></i>
+                <span class="d-md-inline d-none">projects</span>
+              </a>
+            </li>
 
-                            <div class="skill-row">
-                                <span class="skill">HTML</span>
-                                <span class="skill">pugjs</span>
-                                <span class="skill">HAML</span>
-                            </div>
+            <li>
+              <a href="friends.html">
+                <i class="fa-solid fa-user-group"></i>
+                <span class="d-md-inline d-none">friends</span>
+              </a>
+            </li>
 
-                            <div class="skill-row">
-                                <span class="skill">CSS</span>
-                                <span class="skill">SASS</span>
-                                <span class="skill">stylus</span>
-                            </div>
+            <li>
+              <a href="files.html">
+                <i class="fa-solid fa-file"></i>
+                <span class="d-md-inline d-none">files</span>
+              </a>
+            </li>
 
-                            <div class="skill-row">
-                                <span class="skill">javascript</span>
-                                <span class="skill">typescript</span>
-                            </div>
+            <li>
+              <a href="settings.html">
+                <i class="fa-solid fa-gear"></i>
+                <span class="d-md-inline d-none">settings</span>
+              </a>
+            </li>
 
-                            <div class="skill-row">
-                                <span class="skill">vuejs</span>
-                                <span class="skill">reactjs</span>
-                            </div>
-
-                            <div class="skill-row">
-                                <span class="skill">jest</span>
-                                <span class="skill">jasmine</span>
-                            </div>
-
-                            <div class="skill-row">
-                                <span class="skill">PHP</span>
-                                <span class="skill">laravel</span>
-                            </div>
-
-                            <div class="skill-row">
-                                <span class="skill">python</span>
-                                <span class="skill">django</span>
-                            </div>
-                        </div>
-                    </div>
-                    <!--end skills card-->
-
-                    <!--start skills card-->
-                    <div class="card activities">
-                        <h4 class="fw-bold">latest activities</h4>
-                        <p>latest activities done by the user</p>
-                        <div class="act-box">
-                            <div class="act-row">
-                                <div class="badge-box">
-                                    <img src="./imgs/001-store.png" alt="store">
-                                </div>
-                                <div class="desc">
-                                    <h6>store</h6>
-                                    <p>bought the mastering python course</p>
-                                </div>
-                                <div class="time">
-                                    <span>18:10</span>
-                                    <div class="day">yesterday</div>
-                                </div>
-                            </div>
-                            <div class="act-row">
-                                <div class="badge-box">
-                                    <img src="./imgs/003-graduation.png" alt="academy">
-                                </div>
-                                <div class="desc">
-                                    <h6>academy</h6>
-                                    <p>got the php certificate</p>
-                                </div>
-                                <div class="time">
-                                    <span>16:10</span>
-                                    <div class="day">yesterday</div>
-                                </div>
-                            </div>
-                            <div class="act-row">
-                                <div class="badge-box">
-                                    <img src="./imgs/005-verify.png" alt="academy">
-                                </div>
-                                <div class="desc">
-                                    <h6>badges</h6>
-                                    <p>unlocked the 10 skills badge</p>
-                                </div>
-                                <div class="time">
-                                    <span>18:05</span>
-                                    <div class="day">yesterday</div>
-                                </div>
-                            </div>
-                            <div class="act-row">
-                                <div class="badge-box">
-                                    <img src="./imgs/001-store.png" alt="store">
-                                </div>
-                                <div class="desc">
-                                    <h6>store</h6>
-                                    <p>bought the typescript course</p>
-                                </div>
-                                <div class="time">
-                                    <span>12:05</span>
-                                    <div class="day">yesterday</div>
-                                </div>
-                            </div>
-                            <div class="act-row">
-                                <div class="badge-box">
-                                    <img src="./imgs/003-graduation.png" alt="academy">
-                                </div>
-                                <div class="desc">
-                                    <h6>academy</h6>
-                                    <p>got the javascript certificate</p>
-                                </div>
-                                <div class="time">
-                                    <span>08:35</span>
-                                    <div class="day">yesterday</div>
-                                </div>
-                            </div>
-                        </div>                 
-                    </div>
-                    <!--end skills card-->
-                </div>
-                <!--end personal stuff-->
-                <!--end profile-->
-            </div>
-            <!--end cards-->
+            <li>
+              <a href="planes.html">
+                <i class="fa-solid fa-credit-card"></i>
+                <span class="d-md-inline d-none">plans</span>
+              </a>
+            </li>
+          </ul>
         </div>
+        <!--end list-->
+      </div>
+      <!--end sidebar-->
+      <div class="content">
+        <!--start nav-->
+        <div class="nav">
+          <div class="left-side">
+            <div class="icon">
+              <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+            <input
+              type="text"
+              placeholder="type a keyword"
+              class="search form-control"
+            />
+          </div>
+
+          <div class="right-side">
+            <div class="notifications">
+              <i class="fa-regular fa-bell"></i>
+            </div>
+            <div class="avatar">
+              <img src="./imgs/bear.png" alt="avatar" />
+            </div>
+          </div>
+        </div>
+        <!--end nav-->
+
+        <!--start cards-->
+        <div class="cards">
+          <!--start profile-->
+          <h2 class="fw-bold title">profile</h2>
+          <!--start personal info-->
+          <div class="card personal-info">
+            <div class="top">
+              <div class="avatar">
+                <img src="./imgs/bear.png" alt="avatar" />
+              </div>
+              <div class="name">
+                <h6 class="fw-bold">Hammad Mohammad</h6>
+              </div>
+              <div class="rating">
+                <p class="level">level 5</p>
+                <div class="progress-bar">
+                  <div class="child-progress-bar"></div>
+                </div>
+                <div class="stars">
+                  <img src="./imgs/rating.png" alt="rating" />
+                </div>
+                <p class="rating-count">202 ratings</p>
+              </div>
+            </div>
+            <div class="bottom">
+              <div class="info-rows">
+                <div class="single-row">
+                  <p class="heading">general information</p>
+                  <span>
+                    <p>full name:</p>
+                    <h6>Hammad Mohammad</h6></span
+                  >
+                  <span class="gender">
+                    <p>gender:</p>
+                    <h6>male</h6></span
+                  >
+                  <span>
+                    <p>country:</p>
+                    <h6>Saudi Arabia</h6></span
+                  >
+                  <div class="btn-container">
+                    <input type="checkbox" id="toggle" checked />
+                    <label for="toggle">
+                      <i class="fa-solid fa-xmark"></i>
+                      <div class="switch">
+                        <i class="fa-solid fa-check"></i>
+                      </div>
+                    </label>
+                  </div>
+                </div>
+                <div class="single-row">
+                  <p class="heading">personal information</p>
+                  <span>
+                    <p>email:</p>
+                    <h6>hammad@mail.com</h6></span
+                  >
+                  <span class="gender">
+                    <p>phone:</p>
+                    <h6>+966123456789</h6></span
+                  >
+                  <span>
+                    <p>birthday:</p>
+                    <h6>10/08/2002</h6></span
+                  >
+                  <div class="btn-container">
+                    <input type="checkbox" id="toggle2" />
+                    <label for="toggle2">
+                      <i class="fa-solid fa-xmark"></i>
+                      <div class="switch">
+                        <i class="fa-solid fa-check"></i>
+                      </div>
+                    </label>
+                  </div>
+                </div>
+                <div class="single-row">
+                  <p class="heading">job information</p>
+                  <span>
+                    <p>title:</p>
+                    <h6>full stack developer</h6></span
+                  >
+                  <span class="gender">
+                    <p>programming language:</p>
+                    <h6>Javascript</h6></span
+                  >
+                  <span>
+                    <p>years of experience:</p>
+                    <h6>10 years</h6></span
+                  >
+                  <div class="btn-container">
+                    <input type="checkbox" id="toggle3" checked />
+                    <label for="toggle3">
+                      <i class="fa-solid fa-xmark"></i>
+                      <div class="switch">
+                        <i class="fa-solid fa-check"></i>
+                      </div>
+                    </label>
+                  </div>
+                </div>
+                <div class="single-row">
+                  <p class="heading">billing information</p>
+                  <span
+                    >payment method:
+                    <h6>Apple pay</h6></span
+                  >
+                  <span class="gender"
+                    >email:
+                    <h6>mail@website.com</h6></span
+                  >
+                  <span
+                    >subscription:
+                    <h6>monthly</h6></span
+                  >
+                  <div class="btn-container">
+                    <input type="checkbox" id="toggle4" />
+                    <label for="toggle4">
+                      <i class="fa-solid fa-xmark"></i>
+                      <div class="switch">
+                        <i class="fa-solid fa-check"></i>
+                      </div>
+                    </label>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--end personal info-->
+
+          <!--start personal stuff-->
+          <div class="personal-stuff">
+            <!--start skills card-->
+            <div class="card skills">
+              <h4 class="fw-bold">skills</h4>
+              <p class="">complete skill list</p>
+              <div class="skill-rows">
+                <div class="skill-row">
+                  <span class="skill">HTML</span>
+                  <span class="skill">pugjs</span>
+                  <span class="skill">HAML</span>
+                </div>
+
+                <div class="skill-row">
+                  <span class="skill">CSS</span>
+                  <span class="skill">SASS</span>
+                  <span class="skill">stylus</span>
+                </div>
+
+                <div class="skill-row">
+                  <span class="skill">javascript</span>
+                  <span class="skill">typescript</span>
+                </div>
+
+                <div class="skill-row">
+                  <span class="skill">vuejs</span>
+                  <span class="skill">reactjs</span>
+                </div>
+
+                <div class="skill-row">
+                  <span class="skill">jest</span>
+                  <span class="skill">jasmine</span>
+                </div>
+
+                <div class="skill-row">
+                  <span class="skill">PHP</span>
+                  <span class="skill">laravel</span>
+                </div>
+
+                <div class="skill-row">
+                  <span class="skill">python</span>
+                  <span class="skill">django</span>
+                </div>
+              </div>
+            </div>
+            <!--end skills card-->
+
+            <!--start skills card-->
+            <div class="card activities">
+              <h4 class="fw-bold">latest activities</h4>
+              <p>latest activities done by the user</p>
+              <div class="act-box">
+                <div class="act-row">
+                  <div class="badge-box">
+                    <img src="./imgs/001-store.png" alt="store" />
+                  </div>
+                  <div class="desc">
+                    <h6>store</h6>
+                    <p>bought the mastering python course</p>
+                  </div>
+                  <div class="time">
+                    <span>18:10</span>
+                    <div class="day">yesterday</div>
+                  </div>
+                </div>
+                <div class="act-row">
+                  <div class="badge-box">
+                    <img src="./imgs/003-graduation.png" alt="academy" />
+                  </div>
+                  <div class="desc">
+                    <h6>academy</h6>
+                    <p>got the php certificate</p>
+                  </div>
+                  <div class="time">
+                    <span>16:10</span>
+                    <div class="day">yesterday</div>
+                  </div>
+                </div>
+                <div class="act-row">
+                  <div class="badge-box">
+                    <img src="./imgs/005-verify.png" alt="academy" />
+                  </div>
+                  <div class="desc">
+                    <h6>badges</h6>
+                    <p>unlocked the 10 skills badge</p>
+                  </div>
+                  <div class="time">
+                    <span>18:05</span>
+                    <div class="day">yesterday</div>
+                  </div>
+                </div>
+                <div class="act-row">
+                  <div class="badge-box">
+                    <img src="./imgs/001-store.png" alt="store" />
+                  </div>
+                  <div class="desc">
+                    <h6>store</h6>
+                    <p>bought the typescript course</p>
+                  </div>
+                  <div class="time">
+                    <span>12:05</span>
+                    <div class="day">yesterday</div>
+                  </div>
+                </div>
+                <div class="act-row">
+                  <div class="badge-box">
+                    <img src="./imgs/003-graduation.png" alt="academy" />
+                  </div>
+                  <div class="desc">
+                    <h6>academy</h6>
+                    <p>got the javascript certificate</p>
+                  </div>
+                  <div class="time">
+                    <span>08:35</span>
+                    <div class="day">yesterday</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--end skills card-->
+          </div>
+          <!--end personal stuff-->
+          <!--end profile-->
+        </div>
+        <!--end cards-->
+      </div>
     </div>
-</body>
+  </body>
 </html>

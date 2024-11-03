@@ -1,31 +1,39 @@
-@media screen and (max-width:991px) { /*md*/
+@media screen and (max-width: 991px) {
+  /*md*/
+  .personal-info .top .name {
+    text-align: center;
+  }
+  .personal-info .bottom .single-row {
+    flex-direction: column;
+  }
+  .personal-info .bottom .single-row span {
+    width: 100%;
+  }
+  /*start courses*/
+  .course-cards .course-card {
+    width: 48%;
+  }
+  /*end courses*/
 
-    /*start courses*/
-    .course-cards .course-card {
-        width:48%;
-    }
-    /*end courses*/
+  /*start friends*/
+  .f-card {
+    width: 48%;
+  }
+  /*end of friends*/
 
-    /*start friends*/
-    .f-card {
-        width:48%;
-    }
-    /*end of friends*/
+  /*start files*/
+  .files-cards .files {
+    flex-basis: 100%;
+  }
+  .files-cards .stats {
+    flex-basis: 100%;
+  }
+  /*end of files*/
 
-    /*start files*/
-    .files-cards .files {
-        flex-basis: 100%;
-    }
-    .files-cards .stats {
-        flex-basis: 100%;
-    }
-    /*end of files*/
+  /*start settings*/
 
-    /*start settings*/
-
-    .backup .options .server {
-        width: 100%;
-    }
-    /*end of settings*/
-
+  .backup .options .server {
+    width: 100%;
+  }
+  /*end of settings*/
 }
